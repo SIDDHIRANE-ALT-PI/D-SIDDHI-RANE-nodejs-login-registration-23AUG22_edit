@@ -111,3 +111,7 @@ exports.login = async (req, res, next) => {
     }
 
 }
+
+exports.resetPage = (req, res, next) => {
+    res.render("reset");
+};
